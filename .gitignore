@@ -1,0 +1,24 @@
+# Environment and local configuration
+.env
+.env.*
+!.env.example
+
+# Packet captures and VPN configuration
+*.pcap
+*.pcapng
+*.cap
+*.ovpn
+
+# Credentials and sensitive notes
+*credential*
+*credentials*
+*password*
+*passwd*
+*secret*
+*token*
+*private-key*
+*private_key*
+
+# Local artifacts
+.DS_Store
+*.log
